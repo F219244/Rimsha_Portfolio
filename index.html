@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Rimsha Sarfraz</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ6H14vW1a0gqkE9c9C3xtKdeJc5PrwV9F1pLV3zq61Xv5TKvR2kNmbt0cQd" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    </head>
+  <body>
+    
+    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-3" href="#" style="color: #786b68; font-family: 'Arial', ;">Rimsha_Portfolio</a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <i class="bi bi-list text-dark fs-1"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav gap-4 fs-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Interest">Interest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ExtraCurricular">ExtraCurricular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+
+          </ul>
+        </div>
+        
+      </div>
+    </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEJ6H14vW1a0gqkE9c9C3xtKdeJc5PrwV9F1pLV3zq61Xv5TKvR2kNmbt0cQd" crossorigin="anonymous"></script>
+    
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Rimsha Sarfraz</span>
+          </h2>
+          <p class="text-muted">
+            I'm a Final Year Computer Science student with expertise in web development, 
+            creating fully responsive websites along with backend integration. 
+            I have hands-on experience in building dynamic and user-friendly web applications.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a href="#contact" class="text-decoration-none text-white">Hire Me</a>
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/Rimsha_picture.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+<!-- expertise section starts -->
+<section class="expertise mt-5" id="Interest">
+  <div class="heading text-center">
+    <small>My Expertise</small>
+    <h3>
+      My Area of Interest in <br />
+      COMPUTER SCIENCE
+    </h3>
+  </div>
+  <div class="row justify-content-evenly mt-5">
+    <div class="col-10 col-md-4" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img
+            src="images/ST.png"
+            class="w-25 img-fluid img"
+            alt=""
+          />
+        </div>
+        <div class="content mt-3">
+          <h4>Software Testing</h4>
+          <p class="text-muted">
+            <span class="short-text">I have a keen interest in software testing, where I explore various testing techniques including manual and automated testing...</span>
+            <span class="full-text" style="display: none;"> I am particularly interested in control flow analysis, edge coverage, and test automation using tools like CUnit. I am passionate about ensuring software quality and continuously learning about the latest testing methodologies. I enjoy diving into complex testing scenarios and uncovering potential issues in software, ensuring it meets the highest standards of performance and reliability. I regularly follow industry trends to stay updated on best practices and new testing tools.</span>
+          </p>
+          <a href="javascript:void(0);" class="read-more">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-10" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img
+            src="images/web_dev.png"
+            class="w-25 img-fluid img"
+            alt=""
+          />
+        </div>
+        <div class="content mt-3">
+          <h4>Web Development</h4>
+          <p class="text-muted">
+            <span class="short-text">I specialize in creating responsive, user-friendly websites with both front-end and back-end expertise...</span>
+            <span class="full-text" style="display: none;"> I also focus on ensuring cross-browser compatibility and accessibility for all users. In addition to front-end development, I am experienced with back-end technologies such as Node.js and Express, building robust and secure APIs to power web applications.</span>
+          </p>
+          <a href="javascript:void(0);" class="read-more">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-10" data-aos="fade-up">
+      <div class="service-card">
+        <div class="img">
+          <img
+            src="images/project_manage.png"
+            class="w-25 img-fluid img"
+            alt=""
+          />
+        </div>
+        <div class="content mt-3">
+          <h4>Project Management</h4>
+          <p class="text-muted">
+            <span class="short-text">I have a strong interest in project management, particularly in managing and coordinating tasks within software development projects...</span>
+            <span class="full-text" style="display: none;"> I have been involved in planning and leading several projects, coordinating with cross-functional teams, and ensuring that deadlines are met efficiently. I strive to maintain clear communication channels and ensure that projects are executed within scope and budget.</span>
+          </p>
+          <a href="javascript:void(0);" class="read-more">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- expertise section ends here -->
+
+<!-- skill section starts -->
+<section class="skills-section mt-5 py-5" id="about">
+  <div class="row justify-content-center">
+    <!-- Skills Progress Section -->
+    <div class="col-12 col-md-6 skill-with-progress" data-aos="fade-right">
+      <div class="text-center mb-4">
+        <h3>Technical Skills</h3>
+        <hr style="width: 50%; margin: 0 auto 20px; border: 1px solid #ddd;" />
+      </div>
+
+      <!-- Technical Skills Categories with Icons -->
+      <div class="row justify-content-center">
+        <!-- Frontend Skills -->
+        <div class="col-12 col-md-5 mb-4 text-center">
+          <div class="skill-card" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5, CSS3, Responsive Design">
+            <i class="fab fa-html5 fa-4x text-danger"></i>
+            <h5>Frontend</h5>
+            <p>HTML, CSS, JavaScript, ReactJS</p>
+          </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="col-12 col-md-5 mb-4 text-center">
+          <div class="skill-card" data-bs-toggle="tooltip" data-bs-placement="top" title="Node.js, Express.js, REST APIs">
+            <i class="fab fa-node-js fa-4x text-success"></i>
+            <h5>Backend</h5>
+            <p>Node.js, PHP, Express.js, RESTful APIs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <!-- Database Skills -->
+        <div class="col-12 col-md-5 mb-4 text-center">
+          <div class="skill-card" data-bs-toggle="tooltip" data-bs-placement="top" title="SQL, MongoDB, Firebase">
+            <i class="fas fa-database fa-4x text-primary"></i>
+            <h5>Databases</h5>
+            <p>SQL, PostgreSQL, MongoDB, Firebase</p>
+          </div>
+        </div>
+
+        <!-- Tools & Others -->
+        <div class="col-12 col-md-5 mb-4 text-center">
+          <div class="skill-card" data-bs-toggle="tooltip" data-bs-placement="top" title="Version Control, Testing, Deployment">
+            <i class="fas fa-tools fa-4x text-warning"></i>
+            <h5>Tools & Others</h5>
+            <p>Git, Docker, Jenkins, Postman, Firebase</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Detail Section with Accordion -->
+    <div class="col-12 col-md-6 skill-detail" data-aos="fade-left">
+      <div class="heading mt-5 mt-md-3">
+        <h3>Core Competencies</h3>
+        <div class="accordion">
+          <!-- Programming Languages -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#programmingLanguages" aria-expanded="true" aria-controls="programmingLanguages">
+                Programming Languages
+              </button>
+            </h2>
+            <div id="programmingLanguages" class="accordion-collapse collapse show" data-bs-parent=".accordion">
+              <div class="accordion-body">
+                JavaScript, Python, C/C++, TypeScript
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#frameworks" aria-expanded="true" aria-controls="frameworks">
+                Frameworks
+              </button>
+            </h2>
+            <div id="frameworks" class="accordion-collapse collapse" data-bs-parent=".accordion">
+              <div class="accordion-body">
+                React.js, Node.js, React Native
+              </div>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#databases" aria-expanded="false" aria-controls="databases">
+                Databases
+              </button>
+            </h2>
+            <div id="databases" class="accordion-collapse collapse" data-bs-parent=".accordion">
+              <div class="accordion-body">
+                SQL, PostgreSQL, MySQL, MongoDB, Firebase
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#softSkills" aria-expanded="false" aria-controls="softSkills">
+                Soft Skills
+              </button>
+            </h2>
+            <div id="softSkills" class="accordion-collapse collapse" data-bs-parent=".accordion">
+              <div class="accordion-body">
+                Collaboration, Leadership, Communication, Problem Solving, Adaptability, Time Management
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="Rimsha_Resume.pdf" download="Rimsha_Resume">
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Download CV
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- skill section ends -->
+
+<!-- CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Font Awesome for Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<!-- Portfolio Section Starts Here -->
+<!-- Portfolio Section Starts Here -->
+<section class="portfolio" id="portfolio">
+  <div class="heading text-center pt-5">
+    <small>Creative Work</small>
+    <h3>Check My Portfolio</h3>
+  </div>
+
+  <!-- FYP Section (Always Visible) -->
+  <div class="post fyp col-10 mt-3 mt-md-0 text-center" data-aos="fade-up">
+    <h4 class="project-title">Final Year Project - Cultivation for Naives</h4>
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center">
+      <img src="images/Cultivation_for_Naives.jpeg" class="img-fluid w-25 me-md-4" alt="FYP Image">
+      <div class="fyp-details text-md-start text-center">
+        <p>
+          Cultivation for Naives is a smart farming platform that provides farmers with tools for better cultivation management. 
+          The platform integrates weather forecasts, expert consultations, and marketplace functionalities. It includes early warning 
+          alerts, yield forecasting, and smart farm management solutions to optimize agricultural efficiency.
+        </p>
+        <div class="tech-box">
+          <span class="badge">React.js</span>
+          <span class="badge">Tailwind CSS</span>
+          <span class="badge">Node.js</span>
+          <span class="badge">Express.js</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">Weather API</span>
+          <span class="badge">Payment Gateway</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-body">
+    <div class="row justify-content-evenly px-4">
+
+      <!-- Web Development - Tour Management System -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-body text-center">
+            <h4 class="project-title">Tour Management System</h4>
+            <p class="card-text">
+              A web-based application that streamlines tour management, allowing travel agencies to efficiently manage customer 
+              bookings, tour planning, and itinerary scheduling.
+            </p>
+            <div class="tech-box">
+              <span class="badge">Node.js</span>
+              <span class="badge">Express.js</span>
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">MongoDB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web Development - Event Management System -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-body text-center">
+            <h4 class="project-title">Event Management System</h4>
+            <p class="card-text">
+              A platform that helps users manage events, attendees, and scheduling with optimized database integration.
+            </p>
+            <div class="tech-box">
+              <span class="badge">SQL</span>
+              <span class="badge">PHP</span>
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Structures Project - Cricbuzz -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-body text-center">
+            <h4 class="project-title">Cricbuzz Clone</h4>
+            <p class="card-text">
+              A real-time cricket match tracking application inspired by Cricbuzz, implementing efficient data structures such 
+              as linked lists, graphs, and hash tables for fast data retrieval.
+            </p>
+            <div class="tech-box">
+              <span class="badge">C++</span>
+              <span class="badge">Data Structures</span>
+              <span class="badge">Algorithms</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI Project - Sudoku Solver -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-body text-center">
+            <h4 class="project-title">Sudoku Solver</h4>
+            <p class="card-text">
+              An AI-powered Sudoku solver that implements a combination of the A* algorithm and backtracking to efficiently 
+              solve complex Sudoku puzzles.
+            </p>
+            <div class="tech-box">
+              <span class="badge">Python</span>
+              <span class="badge">A* Algorithm</span>
+              <span class="badge">Backtracking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Game - Poison Explosion Game -->
+      <div class="post col-md-4 col-10 mt-3 mt-md-0" data-aos="fade-up">
+        <div class="card">
+          <div class="card-body text-center">
+            <h4 class="project-title">Poison Explosion Game</h4>
+            <p class="card-text">
+              A strategy-based game where players navigate through challenging obstacles while avoiding hazardous poison traps.
+            </p>
+            <div class="tech-box">
+              <span class="badge">C++</span>
+              <span class="badge">Game Development</span>
+              <span class="badge">Graphics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Extracurricullar starts here -->
+<!-- ExtraCurricular Section -->
+<!-- ExtraCurricular Section -->
+<!-- My Passion Section -->
+<section id="ExtraCurricular" class="container py-5">
+  <div class="row align-items-center">
+    <!-- Left Side: Description -->
+    <div class="col-md-6">
+      <h2 class="passion-heading">My Passion</h2>
+      <p>
+        I am the <strong>Vice President</strong> of the <strong>FAST Photography Society</strong>, where I lead a talented team dedicated to capturing and promoting memorable moments. As part of my role, I coordinate events, manage creative projects, and support society members in their photography journeys.
+      </p>
+    </div>
+    <!-- Right Side: Photo -->
+    <div class="col-md-6">
+      <img src="images/vicePresident.jpeg" alt="Vice President Photo" class="img-fluid rounded-circle" style="max-width: 100%; height: auto;">
+    </div>
+  </div>
+</section>
+
+
+    <!-- Extracurricularends here -->
+
+    <!-- Blog Section Starts -->
+<section class="blog mt-5 pb-5" id="blog">
+  <div class="heading text-center pt-5">
+    <small>Latest News</small>
+    <h3>Blog & Articles</h3>
+  </div>
+
+  <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+
+    <!-- Blog Post 1 -->
+    <div class="blogpost col-md-4 col-10 mt-2 mt-md-0">
+      <div class="card">
+        <img src="images/Speech_to_text.jpeg" class="card-img-top rounded-4" alt="Speech-to-Text App" />
+        <div class="card-body px-4">
+          <small>By Rimsha Sarfraz</small>
+          <span class="ms-3">Mar 8, 2022</span>
+          <h4 class="card-title">
+            Speech-to-Text Summarization App
+          </h4>
+          <p class="text-muted">
+            I developed a Speech-to-Text & Summarization App, designed to streamline the process of converting audio lectures into text, summarizing long transcriptions, and saving everything in a downloadable PDF format.
+          </p>
+          <a href="https://medium.com/@rimshasarfraz30/speech-to-text-summarization-app-7e8be0f7be5f" target="_blank" class="read-more-btn link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post 2 -->
+    <div class="blogpost col-md-4 col-10 mt-5 mt-md-0">
+      <div class="card">
+        <img src="images/gen_AI_meets_Poertry.jpeg" class="card-img-top rounded-4" alt="AI meets Poetry" />
+        <div class="card-body px-4">
+          <small>By Rimsha Sarfraz</small>
+          <span class="ms-3">Mar 15, 2022</span>
+          <h4 class="card-title">
+             AI Meets Poetry: The Future of Roman Urdu Shayari!
+          </h4>
+          <p class="text-muted">
+            Imagine an AI-powered tool that understands 
+            the richness of Urdu literature, learns patterns 
+            from classic poetry, and generates beautiful couplets and verses with a single click.
+          </p>
+          <a href="https://medium.com/@rimshasarfraz30/nazmbot-generate-roman-urdu-poetry-with-ai-bd793a494f3e" target="_blank" class="read-more-btn link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Post 3 -->
+    <div class="blogpost col-md-4 col-10 mt-5 mt-md-0">
+      <div class="card">
+        <img src="images/psedocode_to_c++.png" class="card-img-top rounded-4" alt="Pseudocode to C++" />
+        <div class="card-body px-4">
+          <small>By Rimsha Sarfraz</small>
+          <span class="ms-3">Mar 8, 2025</span>
+          <h4 class="card-title">
+            Bridging the Gap Between Pseudocode and C++ with AI
+          </h4>
+          <p class="text-muted">
+            switching between C++ and pseudocode is a common necessity — whether for educational materials, documentation, or debugging.
+          </p>
+          <a href="https://medium.com/@rimshasarfraz30/bridging-the-gap-between-pseudocode-and-c-with-ai-d32d9ec1dc98" target="_blank" class="read-more-btn link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+<!-- contact section starts -->
+<section class="contact py-5" id="contact">
+  <div class="heading text-center">
+    <small>Get in Touch</small>
+    <h3>Any Questions? Feel Free to Contact</h3>
+  </div>
+  <div class="row justify-content-evenly mt-5">
+    <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+      <div class="row justify-content-evenly">
+        <div class="col-1"><i class="bi bi-geo-alt-fill"></i></div>
+        <div class="col-11"><p>Faisalabad, Punjab, Pakistan</p></div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-1"><i class="bi bi-telephone-fill"></i></div>
+        <div class="col-11"><p>+92 3146380720</p></div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-1"><i class="bi bi-send-fill"></i></div>
+        <div class="col-11"><p>rimshasarfraz30@gmail.com</p></div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-1"><i class="bi bi-linkedin"></i></div>
+        <div class="col-11"><p>www.linkedin.com/in/rimsha-sarfraz/</p></div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+      <div class="contact-form">
+        <form id="contact-form" action="https://formspree.io/f/xkgjwkgr" method="POST">
+          <div class="mb-3">
+            <input type="text" class="form-control" name="name" placeholder="Name" required />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="E-mail" required />
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" name="mobile" placeholder="Mobile No." required />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" name="message" placeholder="Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">Submit</button>
+        </form>
+
+        <!-- Success Message -->
+        <div id="success-message" style="display: none; color: green; margin-top: 20px;">
+          <p>Form Submitted Successfully! Thank you for reaching out.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+<!-- Include Bootstrap CSS and Bootstrap Icons CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- footer section starts  -->
+<footer class="text-center text-muted py-4" style="background-color: #2d2d2d; color: white;">
+  <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+  <div class="link-group mt-5" data-aos="fade-up">
+    <a href="#home" class="text-white">Home</a>
+    <div class="vr" style="border-left: 1px solid #fff; height: 20px; margin-left: 10px; margin-right: 10px;"></div>
+    <a href="#about" class="text-white">About</a>
+    <div class="vr" style="border-left: 1px solid #fff; height: 20px; margin-left: 10px; margin-right: 10px;"></div>
+    <a href="#Interest" class="text-white">Interest</a>
+    <div class="vr" style="border-left: 1px solid #fff; height: 20px; margin-left: 10px; margin-right: 10px;"></div>
+    <a href="#portfolio" class="text-white">Portfolio</a>
+    <div class="vr" style="border-left: 1px solid #fff; height: 20px; margin-left: 10px; margin-right: 10px;"></div>
+    <a href="#blog" class="text-white">Blog</a>
+    <div class="vr" style="border-left: 1px solid #fff; height: 20px; margin-left: 10px; margin-right: 10px;"></div>
+    <a href="#contact" class="text-white">Contact</a>
+  </div>
+
+  <div class="social-links mt-5" data-aos="fade-up">
+    <!-- Social Media Icons in a row -->
+    <a href="https://www.linkedin.com/in/rimsha-sarfraz/" target="_blank" class="text-white mx-3">
+      <i class="bi bi-linkedin" style="font-size: 30px;"></i>
+    </a>
+    <a href="https://wa.me/923146380720" target="_blank" class="text-white mx-3">
+      <i class="bi bi-whatsapp" style="font-size: 30px;"></i>
+    </a>
+    <a href="https://www.instagram.com/life_scenz?igsh=MXIwYnYxcGxiZ3V6aA==" target="_blank" class="text-white mx-3">
+      <i class="bi bi-instagram" style="font-size: 30px;"></i>
+    </a>
+  </div>
+
+  <hr class="text-muted my-4" />
+
+  <p>&copy; 2022 Portfolio | All Rights Reserved.</p>
+</footer>
+
+<!-- Include Bootstrap JS (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
