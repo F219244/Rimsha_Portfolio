@@ -180,3 +180,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
   })
   .catch(error => alert("Something went wrong. Please check your internet connection."));
 });
+const menu = document.querySelector(".menu");
+document.querySelector(".menu-toggle").addEventListener("click", () => {
+    menu.classList.toggle("active");
+});

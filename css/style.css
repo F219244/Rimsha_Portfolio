@@ -1,3 +1,26 @@
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 50%; /* Adapts to screen size */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 /* appling google font over the website  */
 body{
   font-family: 'Josefin Sans', sans-serif;
